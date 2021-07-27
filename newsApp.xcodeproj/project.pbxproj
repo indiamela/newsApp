@@ -15,6 +15,7 @@
 		F22ABB3026AF7ACA00F5AE25 /* newsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB2F26AF7ACA00F5AE25 /* newsAppUITests.swift */; };
 		F22ABB4226B0C59B00F5AE25 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB4126B0C59B00F5AE25 /* News.swift */; };
 		F22ABB4526B0C79F00F5AE25 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB4426B0C79F00F5AE25 /* API.swift */; };
+		F22ABB4826B0CD5B00F5AE25 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB4726B0CD5B00F5AE25 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F22ABB3126AF7ACA00F5AE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F22ABB4126B0C59B00F5AE25 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		F22ABB4426B0C79F00F5AE25 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F22ABB4726B0CD5B00F5AE25 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		F22ABB1126AF7AC800F5AE25 /* newsApp */ = {
 			isa = PBXGroup;
 			children = (
+				F22ABB4626B0CD4400F5AE25 /* Survices */,
 				F22ABB4326B0C78900F5AE25 /* Config */,
 				F22ABB4026AF7CE000F5AE25 /* Views */,
 				F22ABB3F26AF7CBD00F5AE25 /* ViewModels */,
@@ -174,6 +177,14 @@
 				F22ABB4426B0C79F00F5AE25 /* API.swift */,
 			);
 			name = Config;
+			sourceTree = "<group>";
+		};
+		F22ABB4626B0CD4400F5AE25 /* Survices */ = {
+			isa = PBXGroup;
+			children = (
+				F22ABB4726B0CD5B00F5AE25 /* NetworkManager.swift */,
+			);
+			name = Survices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +318,7 @@
 			files = (
 				F22ABB4226B0C59B00F5AE25 /* News.swift in Sources */,
 				F22ABB1526AF7AC800F5AE25 /* ContentView.swift in Sources */,
+				F22ABB4826B0CD5B00F5AE25 /* NetworkManager.swift in Sources */,
 				F22ABB4526B0C79F00F5AE25 /* API.swift in Sources */,
 				F22ABB1326AF7AC800F5AE25 /* newsAppApp.swift in Sources */,
 			);
