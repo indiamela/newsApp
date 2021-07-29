@@ -22,6 +22,8 @@
 		F22ABB5026B3675A00F5AE25 /* NewsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB4F26B3675A00F5AE25 /* NewsHome.swift */; };
 		F22ABB5226B367CC00F5AE25 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB5126B367CC00F5AE25 /* NewsListView.swift */; };
 		F22ABB5426B367D900F5AE25 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB5326B367D900F5AE25 /* NewsCell.swift */; };
+		F22ABB5726B370C500F5AE25 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB5626B370C400F5AE25 /* SwiftUIWebView.swift */; };
+		F22ABB5926B3720800F5AE25 /* NewsArticleWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB5826B3720800F5AE25 /* NewsArticleWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		F22ABB4F26B3675A00F5AE25 /* NewsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHome.swift; sourceTree = "<group>"; };
 		F22ABB5126B367CC00F5AE25 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 		F22ABB5326B367D900F5AE25 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		F22ABB5626B370C400F5AE25 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		F22ABB5826B3720800F5AE25 /* NewsArticleWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticleWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 		F22ABB1126AF7AC800F5AE25 /* newsApp */ = {
 			isa = PBXGroup;
 			children = (
+				F22ABB5526B3709800F5AE25 /* Components */,
 				F22ABB4626B0CD4400F5AE25 /* Survices */,
 				F22ABB4326B0C78900F5AE25 /* Config */,
 				F22ABB4026AF7CE000F5AE25 /* Views */,
@@ -185,6 +190,7 @@
 				F22ABB4F26B3675A00F5AE25 /* NewsHome.swift */,
 				F22ABB5126B367CC00F5AE25 /* NewsListView.swift */,
 				F22ABB5326B367D900F5AE25 /* NewsCell.swift */,
+				F22ABB5826B3720800F5AE25 /* NewsArticleWebView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -203,6 +209,14 @@
 				F22ABB4726B0CD5B00F5AE25 /* NetworkManager.swift */,
 			);
 			name = Survices;
+			sourceTree = "<group>";
+		};
+		F22ABB5526B3709800F5AE25 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F22ABB5626B370C400F5AE25 /* SwiftUIWebView.swift */,
+			);
+			name = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,11 +350,13 @@
 			files = (
 				F22ABB4226B0C59B00F5AE25 /* News.swift in Sources */,
 				F22ABB4E26B365CB00F5AE25 /* NewsListHeader.swift in Sources */,
+				F22ABB5926B3720800F5AE25 /* NewsArticleWebView.swift in Sources */,
 				F22ABB4C26B2174B00F5AE25 /* NewsListVM.swift in Sources */,
 				F22ABB4A26B2158700F5AE25 /* NewsViewModel.swift in Sources */,
 				F22ABB5026B3675A00F5AE25 /* NewsHome.swift in Sources */,
 				F22ABB1526AF7AC800F5AE25 /* ContentView.swift in Sources */,
 				F22ABB4826B0CD5B00F5AE25 /* NetworkManager.swift in Sources */,
+				F22ABB5726B370C500F5AE25 /* SwiftUIWebView.swift in Sources */,
 				F22ABB5226B367CC00F5AE25 /* NewsListView.swift in Sources */,
 				F22ABB4526B0C79F00F5AE25 /* API.swift in Sources */,
 				F22ABB1326AF7AC800F5AE25 /* newsAppApp.swift in Sources */,
