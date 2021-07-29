@@ -16,6 +16,8 @@
 		F22ABB4226B0C59B00F5AE25 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB4126B0C59B00F5AE25 /* News.swift */; };
 		F22ABB4526B0C79F00F5AE25 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB4426B0C79F00F5AE25 /* API.swift */; };
 		F22ABB4826B0CD5B00F5AE25 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB4726B0CD5B00F5AE25 /* NetworkManager.swift */; };
+		F22ABB4A26B2158700F5AE25 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB4926B2158700F5AE25 /* NewsViewModel.swift */; };
+		F22ABB4C26B2174B00F5AE25 /* NewsListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22ABB4B26B2174B00F5AE25 /* NewsListVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F22ABB4126B0C59B00F5AE25 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		F22ABB4426B0C79F00F5AE25 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		F22ABB4726B0CD5B00F5AE25 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F22ABB4926B2158700F5AE25 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		F22ABB4B26B2174B00F5AE25 /* NewsListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,8 @@
 		F22ABB3F26AF7CBD00F5AE25 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F22ABB4926B2158700F5AE25 /* NewsViewModel.swift */,
+				F22ABB4B26B2174B00F5AE25 /* NewsListVM.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -317,6 +323,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F22ABB4226B0C59B00F5AE25 /* News.swift in Sources */,
+				F22ABB4C26B2174B00F5AE25 /* NewsListVM.swift in Sources */,
+				F22ABB4A26B2158700F5AE25 /* NewsViewModel.swift in Sources */,
 				F22ABB1526AF7AC800F5AE25 /* ContentView.swift in Sources */,
 				F22ABB4826B0CD5B00F5AE25 /* NetworkManager.swift in Sources */,
 				F22ABB4526B0C79F00F5AE25 /* API.swift in Sources */,
